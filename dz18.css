@@ -1,0 +1,94 @@
+
+body{
+    background-image: url("fop.jpg");
+    background-size: 100%;
+}
+#Card{
+      max-width: 1300px;
+    min-width: 30%;
+    background-image: url("sar.jpg");
+    width: 450px;
+    height: 300px;
+    margin-left: 450px;
+    margin-top: 150px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+}
+#mec  {
+   position: absolute;
+    text-align: center;
+   margin-left: 210px;
+    margin-top: 230px;
+    width: 60px;
+    height: 25px;
+}
+#mecy{
+     position: absolute;
+    text-align: center;
+   margin-left: 120px;
+    margin-top: 230px;
+    width: 60px;
+    height: 25px;
+}
+#mecys{
+       position: absolute;
+   text-align: center;
+  margin-left: 30px;
+    margin-top: 230px;
+    width: 60px;
+    height: 25px;
+}
+#nume{
+    position: absolute;
+    width: 240px;
+    height: 25px;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+#cghet{
+    position: absolute;
+     width: 248px;
+    height: 33px;
+     margin-left: 30px;
+    margin-top: 110px;
+}
+#Card label   {
+    position: absolute;
+}
+.v1 label{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.v2 label{
+     margin-top: 150px;
+     margin-left: 30px;
+    font-size: 12px;
+}
+.v3 label{
+    margin-top: 210px;
+      margin-left: 30px;
+    font-size: 12px;
+}
+.v5 label{
+      margin-top: 210px;
+      margin-left: 210px;
+    font-size: 12px;
+}
+#dew {
+    position: relative;
+    margin-left: -20px;
+    margin-top: 20px;
+    padding-left: 50px;
+    line-height: 30px;
+    width: 400px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+}
+@media (max-width: 1300px) {
+    #Card{
+        margin: auto;
+    }
+}
